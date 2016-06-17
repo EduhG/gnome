@@ -1,0 +1,206 @@
+/*
+========================================
+Body
+========================================
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+
+body {
+    background: #F3F2ED;
+    color: #888;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+}
+
+/*
+========================================
+Grid
+========================================
+*/
+a{
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+}
+.align-centre {
+    text-align: center;
+}
+.padding {
+    padding-right: 30px !important;
+    padding-left: 35px !important;
+}
+/*
+========================================
+Grid
+========================================
+*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 605px;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 1px 2px 0px 1px;
+}
+
+.section {
+    margin: 0px;
+    width: 100%;
+    padding: 9px 0px;
+    height: 100%;
+}
+
+/*
+========================================
+Header
+========================================
+*/
+.primary-header {
+    background: #343539;
+    height: 100px;
+}
+.logo {
+    padding: 0px 25px;
+    float: left;
+    color: #F2CB30;
+    height: 100%;
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.logo a {
+    color: #F2CB30;
+}
+
+.tagline {
+    color: lightgrey;
+    margin-top: 50px;
+    font-size: 12px !important;
+    text-align: right;
+    padding-right: 10px;
+}
+.tagline a {
+    color: #FFF;
+}
+
+/*
+========================================
+Sections
+========================================
+*/
+.img-bg {
+    margin-top: 5px;
+    background-image: url("../images/big_img.jpg");
+    width: 600px;
+    height: 266px;
+    background-repeat: no-repeat;
+}
+
+.img-hdg {
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Droid Serif', serif;
+}
+
+.content {
+    background: #fff;
+    border: 1px solid transparent;
+    padding-top: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.content h3{
+    font-weight: bolder;
+    color: #58585B;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.content p{
+    font-weight:bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #b5b5b5;
+}
+
+.info {
+    border-radius: 30px;
+    background: #343539;
+    color: #F3F2ED;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 8px 25px;
+    position: relative;
+}
+.col-1-2 {
+    width: 49.5%;
+}
+
+.col-1-2,
+.col-1-3 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+.col-1-3 {
+    width: 32.7%;
+}
+.teesers {
+    text-align: center;
+}
+
+.adds {
+    width: 100%;
+    text-align: center;
+    padding-top: 21px;
+    background: #7AFF4C;
+    height: 120px;
+    width: 600px;
+}
+.adds p{
+    padding: 10px;
+    background: #7AFF4C;
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/*
+========================================
+Primary footer
+========================================
+*/
+
+.primary-footer {
+    background: #343539;
+    margin-bottom: 50px;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.primary-footer p{
+    background: #343539;
+    color: #F2CB30;
+}
+
+.primary-footer a{
+    line-height: 50px;
+    color: #F2CB30;
+    text-decoration: none;
+}
