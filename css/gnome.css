@@ -10,7 +10,8 @@ body {
     background: #F3F2ED;
     color: #888;
     font-family: 'Open Sans', sans-serif;
-    padding: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*
@@ -46,7 +47,7 @@ Grid
 }
 .container {
     margin: 0 auto;
-    width: 605px;
+    width: 100%;
     height: 100%;
     border: 1px solid grey;
     padding: 1px 2px 0px 1px;
@@ -66,14 +67,14 @@ Header
 */
 .primary-header {
     background: #343539;
-    height: 100px;
+    height: 200px;
 }
 .logo {
     padding: 0px 25px;
     float: left;
     color: #F2CB30;
     height: 100%;
-    font-size: 55px;
+    font-size: 130px;
     margin-top: 0px;
 }
 
@@ -83,8 +84,8 @@ Header
 
 .tagline {
     color: lightgrey;
-    margin-top: 50px;
-    font-size: 12px !important;
+    margin-top: 120px;
+    font-size: 20px !important;
     text-align: right;
     padding-right: 10px;
 }
@@ -100,17 +101,27 @@ Sections
 .img-bg {
     margin-top: 5px;
     background-image: url("../images/big_img.jpg");
-    width: 600px;
-    height: 266px;
+    width:100%px;
+    height: 600px;
     background-repeat: no-repeat;
+    background-size: cover
 }
 
 .img-hdg {
-    width: 200px;
+    width: 500px;
     text-align: left;
     padding: 10px;
-    font-size: 20px;
+    font-size: 50px;
     line-height: 24px;
+    font-family: 'Droid Serif', serif;
+}
+
+.img-hdg p {
+    width: 500px;
+    text-align: left;
+    padding: 10px;
+    font-size: 55px;
+    line-height: 55px;
     font-family: 'Droid Serif', serif;
 }
 
@@ -125,13 +136,14 @@ Sections
 .content h3{
     font-weight: bolder;
     color: #58585B;
-    font-size: 18px;
+    font-size: 30px;
     padding-top: 5px;
 }
 
 .content p{
-    font-weight:bold;
-    font-size: 14px;
+    font-weight:400;
+    font-size: 37px;
+    line-height: 40px;
     margin-bottom: 15px;
     color: #b5b5b5;
 }
@@ -170,14 +182,14 @@ Sections
     padding-top: 21px;
     background: #7AFF4C;
     height: 120px;
-    width: 600px;
+    width: 100%;
 }
 .adds p{
     padding: 10px;
     background: #7AFF4C;
     color: #fff;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 35px;
+    font-size: 28px;
 }
 
 /*
